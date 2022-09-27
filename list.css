@@ -1,0 +1,121 @@
+body {
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    font-family: 'tahoma';
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+label {
+    font-family: 'comic sans ms';
+    font-size: 20pt;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: green;
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+.xyera{
+    margin-left: 50px;
+}
+.fyz{
+    line-height: 0px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.zia{
+    margin-left: 50px;
+    margin-top: 0;
+    float:left;
+    display:block;
+    width:200px
+}
+.xyera7{
+    margin-left: 50px;
+    margin-bottom: auto;
+}
+.fauzia{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:200px
+}
+.zxy{
+    margin-left: 50px;
+}
+.xzy{
+    margin-left: 20px;
+}
+
+.pelajaran{
+    display: flex;
+}
+
+.item-pelajaran{
+    width: 20%;
+}
+
+.item-pelajaran img{
+    width: 100%;
+}
